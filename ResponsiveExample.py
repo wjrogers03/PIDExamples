@@ -239,7 +239,7 @@ def LiveSystem():
 
         ax.set_xlabel("Time(s)")
         ax.set_ylabel("Temperature (C)")
-        _ax.set_title("PID Controller Simulation \n Heated Can (monitored) with Cooler")
+        ax.set_title("PID Controller Simulation \n Heated Can (monitored) with Cooler")
 
 
         plt.legend(loc="upper left")
